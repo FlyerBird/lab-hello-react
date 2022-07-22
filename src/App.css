@@ -4,6 +4,18 @@
   
 }
 
+.top{
+ display: flex;
+ justify-content: space-between;
+ margin-right: 40px;
+}
+
+.top .Burger{
+  width: 30px;
+  height: 20px;
+  margin-top: 10px;
+}
+
 .navbar{
   background-image: url('images/reactBack.jpg');
   background-size: cover ;
@@ -11,6 +23,7 @@
   padding-top: 20px;
   padding-left: 40px;
   padding-bottom: 50px;
+ 
   color: aliceblue;
   font-size:xx-large;
 
@@ -22,3 +35,30 @@
   font-weight: 700;
 
 }
+
+.main{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.main .main1, .main2, .main3, .main4 {
+  font-size: larger;
+  color: darkslategray;
+  
+  
+}
+
+.main .main1 h1, .main2 h1, .main3 h1, .main4 h1 {
+margin-left: 10px;
+}
+
+.main .main1 p, .main2 p, .main3 p, .main4 p {
+  margin-left: 10px;
+  }
+
+
+
+
+
